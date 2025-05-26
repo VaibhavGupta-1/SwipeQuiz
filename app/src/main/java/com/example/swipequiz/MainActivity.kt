@@ -130,7 +130,7 @@ fun SwipeCard(
                 rotationZ = animatedRotation
             )
     ) {
-        content()
+        content()            
     }
 }
 
