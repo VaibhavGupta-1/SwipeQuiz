@@ -4,6 +4,7 @@ import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectHorizontalDragGestures
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -32,7 +33,7 @@ import kotlin.math.roundToInt
 
 @Composable
 fun QuizScreen(
-    paddingValues: androidx.compose.foundation.layout.PaddingValues
+    paddingValues: PaddingValues
 ) {
     Box(modifier = Modifier
         .fillMaxSize()
@@ -49,11 +50,7 @@ fun QuizScreen(
                     .background(Color.Cyan),
                 contentAlignment = Alignment.Center
             ) {
-                Text(
-                    text = "Swipe Me!",
-                    style = MaterialTheme.typography.headlineMedium,
-                    color = Color.Black
-                )
+                content(modifier = Modifier)
             }
         }
     }
