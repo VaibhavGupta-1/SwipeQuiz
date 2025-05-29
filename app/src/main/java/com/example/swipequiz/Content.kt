@@ -8,9 +8,10 @@ import androidx.compose.ui.graphics.Color
 
 @Composable
 fun content(modifier: Modifier = Modifier) {
-    Text(
-        text = "Me!",
-        style = MaterialTheme.typography.headlineMedium,
-        color = Color.Black
-    )
+//    Text(
+//        text = "Me!",
+//        style = MaterialTheme.typography.headlineMedium,
+//        color = Color.Black
+//    )
+
 }
