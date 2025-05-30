@@ -15,7 +15,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             SwipeQuizTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { 
+                Scaffold(modifier = Modifier.fillMaxSize()) { paddingValues ->
                     QuizScreen(paddingValues = paddingValues)
                 }
             }
